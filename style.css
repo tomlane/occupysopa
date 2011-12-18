@@ -1,0 +1,274 @@
+body {
+	margin: 0;
+	text-align: center;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	
+}
+
+.clear {
+	clear: both;
+}
+
+a {
+	color: #2a8ce8;
+}
+
+a:hover {
+	color: #861A1A;
+}
+
+.inner {
+	width: 950px;
+	margin: 0 auto;
+	padding: 60px 0;
+}
+
+h1 {
+	width: 950px;
+	height: 610px;
+	background: url(http://venturebeat.files.wordpress.com/2011/12/antisopa.png) center center no-repeat;
+	text-indent: -32000px;	
+}
+
+h2 {
+	font-family: 'Bevan', serif;
+	font-size: 6em;
+	margin: 20px 0;
+	font-weight: normal;
+}
+
+h3 {
+	font-family: 'Bevan', serif;
+	font-size: 3em;
+	margin: 30px 0;
+	font-weight: normal;
+	line-height: 1.2em;
+}
+
+p { 
+	line-height: 1.6em;
+}
+
+p.sidenote {
+	font-size: .8em;
+	border-top: 1px dashed #FBE8E8;
+	padding-top: 20px;
+}
+
+p.sidenote strong {
+	font-size: 1em;
+}
+
+p strong {
+	font-family: 'Bevan', serif;
+	font-weight: normal;
+	color: #861A1A;
+	font-size: 1.2em;
+}
+
+p.summary {
+	font-family: 'Bevan', serif;
+	font-weight: normal;
+	color: #861A1A;
+	font-size: 1.5em;
+}
+
+#intro {
+	background: #222222 url(http://www.occupyflash.org/images/paper-gray.jpg);
+	color: #888888;
+	position: relative;
+	z-index: 1;
+}
+
+#intro h2 {
+	font-size: 1.5em;
+}
+
+#manifesto {
+	background: #ffffff;
+	color: #333333;
+	-webkit-box-shadow: 0px 0px 40px 0px #111111;
+	-moz-box-shadow: 0px 0px 40px 0px #111111;
+	box-shadow: 0px 0px 40px 0px #111111; 
+	position: relative;
+	z-index: 5;
+}
+
+#manifesto h2 {
+	color: #861A1A;
+	
+}
+
+#manifesto .bordered-section {
+	
+	background: url(http://www.occupyflash.org/images/manifesto-hr.png) top center no-repeat;
+	padding-top: 60px;
+	
+}
+
+#resources {
+	background: #861A1A url(http://www.occupyflash.org/images/paper-red.jpg);
+	color: #ffffff;
+	position: relative;
+	z-index: 1;
+}
+
+.join-intro {
+	font-size: 1.8em;
+}
+
+#resources .bordered-section {
+	
+	background: url(http://www.occupyflash.org/images/resources-hr.png) top center no-repeat;
+	padding-top: 60px;
+	
+}
+
+#resources p {
+	font-size: 1.4em;
+}
+
+#resources .inner {
+	background: url(http://www.occupyflash.org/images/hand.png) top center no-repeat;
+}
+
+#resources a {
+
+}
+
+#resources a:hover {
+	color: #4F0000;
+}
+
+#resources ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 1.4em;
+}
+
+#resources li {
+	margin: 5px 0;
+}
+
+.spread-the-word {
+	width: 230px;
+	margin: 0 auto;
+}
+
+.service-button {
+	float: left;
+	margin: 0 10px;
+}
+
+.flash-detection {
+	border: 3px dashed #ffffff;
+	width: 300px;
+	background: rgb(140, 47, 48);
+	background: rgba(255, 255, 255, .1);
+	margin: 0 auto;
+	padding: 10px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.flash-detection .emoticon {
+	font-size: 4em;
+	font-weight: bold;
+	margin-right: 5px;
+	float: left;
+	width: 100px;
+	line-height: 1em;
+	
+}
+
+#resources .flash-detection p {
+	font-size: 1em;
+	margin: 10px 0;
+	float: left;
+	width: 190px;
+}
+
+#nav {
+	background: rgb(0,0,0); 
+ 	background: rgba(0,0,0,0.8);
+	position: fixed;
+	z-index: 10;
+	top: 15px;
+	left: 0;
+	width: 100%;
+}
+
+#nav .inner {
+	padding: 10px 0;
+}
+
+#nav ul {
+	list-style: none;
+	text-align: center;
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	font-size: 1.5em;
+}
+
+#nav li {
+	display: inline;
+	font-family: 'Bevan', serif;
+	margin: 0 20px;
+	vertical-align: middle;
+}
+
+#nav li a {
+	color: #ffffff;
+	text-decoration: none;
+	vertical-align: middle;
+}
+
+#nav li a:hover {
+	color: #861A1A;
+}
+
+#nav li a img {
+	
+}
+
+#footer {
+	background: #222222 url(http://www.occupyflash.org/images/paper-gray.jpg);
+	color: #888888;
+	font-size: .7em;
+}
+
+#footer .inner {
+	padding: 10px 0;
+}
+
+
+
+#localization {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: .8em;
+}
+
+#localization li {
+	display: inline;
+	padding: 0 10px;
+	border-left: 1px solid #666666;
+}
+
+#localization li.first {
+	border: 0px;
+}
+
+#localization li a {
+	color: #666666;
+
+}
+
+#localization li a:hover {
+	color: #861A1A;
+}
